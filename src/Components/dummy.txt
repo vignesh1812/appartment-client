@@ -1,0 +1,82 @@
+import { MdDashboard } from "react-icons/md";
+import { FaUsers } from "react-icons/fa6";
+import { GiTicket } from "react-icons/gi";
+import { MdMessage } from "react-icons/md";
+import { FaUserPlus } from "react-icons/fa";
+<MdMessage />
+<GiTicket />
+<FaUsers />
+<FaUserPlus />
+<MdDashboard />
+
+
+
+
+const Menu=[
+{ 
+     title: "Dashboard",
+      role: ["admin", "superadmin", "owner"],
+      path:'/dashboard',
+      src: "<MdDashboard />",
+
+},
+{
+   title: "Tickets",
+      role: ["admin", "superadmin", "resident","owner"],
+      path:'/tickets',
+      src: "<GiTicket />",
+    
+},
+{
+   title: "Create Ticket",
+      role: ["admin", "superadmin", "resident"],
+      path:'/create-ticket',
+      src: "<MdMessage />",
+    
+},
+{
+   title: "All users",
+      role: ["admin","superadmin"],
+      path:'/allusers',
+      src: "<FaUsers />",
+    
+},
+{
+   title: "Register",
+      role: ["admin","superadmin"],
+      path:'/register',
+      src: "<FaUserPlus />", 
+},
+{
+   title: "Assigned Tickets",
+      role: ["maintainence"],
+      path:'/tickets',
+      src: "<GiTicket />", 
+},
+{
+   title: "Dashboard",
+      role: ["maintainence"],
+      path:'/dashboard',
+      src: "<MdDashboard />", 
+}
+
+
+]
+
+
+
+
+
+
+
+
+      {/* <div className="">
+        <Datepicker
+        
+         primaryColor={"violet"}
+        popoverDirection="down" 
+        showShortcuts={true} 
+        showFooter={true} 
+         onChange={handleDateChange} />
+
+      </div> */}

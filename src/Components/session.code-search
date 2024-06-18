@@ -1,0 +1,103 @@
+# Query: session
+# Flags: CaseSensitive WordMatch OpenEditors
+# Excluding: backend
+# ContextLines: 1
+
+21 results - 13 files
+
+client\src\Components\AllTickets.jsx:
+   35              title: "warning",
+   36:             text: `Your  session has Expired, Please Login Again`,
+   37              icon: "warning",
+
+   69                title: "warning",
+   70:               text: `Your session has Expired, Please Login Again`,
+   71                icon: "warning",
+
+   91                title: "warning",
+   92:               text: `Your session has Expired, Please Login Again`,
+   93                icon: "warning",
+
+  120            title: "warning",
+  121:           text: `Your session has Expired, Please Login Again`,
+  122            icon: "warning",
+
+client\src\Components\AssignTo.jsx:
+  36                title: "warning",
+  37:               text: `Your session has Expired, Please Login Again`,
+  38                icon: "warning",
+
+  85            title: "warning",
+  86:           text: `Your session has Expired, Please Login Again`,
+  87            icon: "warning",
+
+client\src\Components\CloseTicket.jsx:
+  52              title: "warning",
+  53:             text: `Your session has Expired, Please Login Again`,
+  54              icon: "warning",
+
+client\src\Components\CommentSection.jsx:
+  23              title: "warning",
+  24:             text: `Your session has Expired, Please Login Again`,
+  25              icon: "warning",
+
+client\src\Components\CreateComment.jsx:
+  71            title: "warning",
+  72:           text: `Your session has Expired, Please Login Again`,
+  73            icon: "warning",
+
+client\src\Components\DeleteUser.jsx:
+  57              title: "warning",
+  58:             text: `Your session has Expired, Please Login Again`,
+  59              icon: "warning",
+
+  92      //     title: "warning",
+  93:     //     text: `Your session has Expired, Please Login Again`,
+  94      //     icon: "warning",
+
+client\src\Pages\AdminDash.jsx:
+  20              title: "warning",
+  21:             text: `Your session has Expired, Please Login Again`,
+  22              icon: "warning",
+
+client\src\Pages\AllUsers.jsx:
+  28              title: "warning",
+  29:             text: `Your session has Expired, Please Login Again`,
+  30              icon: "warning",
+
+  61                title: "warning",
+  62:               text: `Your session has Expired, Please Login Again`,
+  63                icon: "warning",
+
+  82                title: "warning",
+  83:               text: `Your session has Expired, Please Login Again`,
+  84                icon: "warning",
+
+client\src\Pages\AssignedTickets.jsx:
+  34              title: "warning",
+  35:             text: `Your session has Expired, Please Login Again`,
+  36              icon: "warning",
+
+client\src\Pages\EditUser.jsx:
+   79            title: "warning",
+   80:           text: `Your session has Expired, Please Login Again`,
+   81            icon: "warning",
+
+  140            title: "warning",
+  141:           text: `Your session has Expired, Please Login Again`,
+  142            icon: "warning",
+
+client\src\Pages\MainDash.jsx:
+  32              title: "warning",
+  33:             text: `Your session has Expired, Please Login Again`,
+  34              icon: "warning",
+
+client\src\Pages\TicketDetail.jsx:
+  33              title: "warning",
+  34:             text: `Your session has Expired, Please Login Again`,
+  35              icon: "warning",
+
+client\src\Pages\UserTickets.jsx:
+  33              title: "warning",
+  34:             text: `Your session has Expired, Please Login Again`,
+  35              icon: "warning",
